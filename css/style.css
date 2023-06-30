@@ -1,0 +1,12 @@
+.mEspaco{
+    background-color: #7A0303;
+    height: 2rem;
+    
+}
+.mEspaco li{
+    width: 25rem;
+}
+
+.mEspaco li:hover{
+    background-color: #d80404;
+}
