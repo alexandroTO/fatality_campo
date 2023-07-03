@@ -1,12 +1,22 @@
 .mEspaco{
+    display: flex;
     background-color: #7A0303;
-    height: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+
+
     
 }
-.mEspaco li{
-    width: 25rem;
+.mEspacoItem{
+    gap:5rem;
 }
-
-.mEspaco li:hover{
-    background-color: #d80404;
+.mEspacoItem > ul > li > a{
+    color:white;
+    margin-right: 1rem;
+}
+.mEspacoItem a:hover{
+    color: #d80404;
+}
+.active{
+    color:#fff;
 }
